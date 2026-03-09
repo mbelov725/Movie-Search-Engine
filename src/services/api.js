@@ -1,5 +1,5 @@
 export const getPopularMovies = async () => {
-    const responce = await fetch("/api/movies/popular");
+    const response = await fetch("/api/movies/popular");
     const data = await response.json();
     return data;
 };

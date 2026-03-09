@@ -21,9 +21,10 @@ app.get("/api/movies/search", async (req, res) => {
     const query = req.query.q;
 
     const response = await fetch(
-        `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}`
+        `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(
+            query
+        )}`
     );
-
     const data = await response.json();
     res.json(data.results);
 });
