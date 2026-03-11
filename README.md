@@ -5,7 +5,7 @@ The project was built using JavaScript, HTML, and CSS with React, integrates the
 
 ## Website
 
-[Check it out here](https://movie-search-engine-cyan.vercel.app/)
+[Check it out here](https://use-movie-search-engine.vercel.app/)
 
 ## Features
 
